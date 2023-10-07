@@ -1,0 +1,117 @@
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f4f4f4; */
+    background: linear-gradient(to right,  #4285f4, #ffffff);
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 180px;
+    transition: box-shadow 0.3s ease-in-out;
+    /* background: linear-gradient(to right,  #4285f4, #ffffff); */
+}
+
+.form-container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-header {
+    background-color: #4285f4;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    animation: slideDown 0.5s ease-in-out;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.form-body {
+    padding: 20px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px -15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-button {
+    background-color: #4285f4;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 106%;
+    margin: 10px -10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.form-button:hover {
+    background-color: #357ae8;
+}
+
+.renderfile {
+    text-align: center;
+    margin-top: 20px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.renderfile a {
+    color: #ffffff; 
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    text-shadow: 1px 0px 1px black; 
+    font-family: sans-serif;
+}
+
+
+
+.renderfile a:hover {
+    text-decoration:underline;
+    color: #4285f4;
+    
+}
+
+
+/* Media queries for responsiveness */
+
+/* Small screens (phones) */
+@media (max-width: 767px) {
+    .form-container {
+        width: 90%;
+        margin-top: 400px auto; /* Adjust top margin for centering */
+    }
+}
+
