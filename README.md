@@ -27,15 +27,15 @@ This is a real-time chat application built with HTML, EJS, CSS, Node.js, Socket.
    cd real-time-chat-app
    
 2. Navigate to the project directory:
- ```sh
+   ```sh
    cd your-project
 
 3. Install project dependencies:
-   ```sh
+    ```sh
     npm install
 
 4. Start the application:
- ```sh
+   ```sh
     npm start
    
 5. Open your web browser and go to http:// localhost:3000.
