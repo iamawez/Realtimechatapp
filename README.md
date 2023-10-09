@@ -47,9 +47,8 @@ This is a real-time chat application built with HTML, EJS, CSS, Node.js, Socket.
 
 ![loginform](https://github.com/iamawez/Realtimechatapp/assets/108227269/6fb0e008-7e9e-4236-ac6d-97fad5ab81d6)
 
-![user 1](https://github.com/iamawez/Realtimechatapp/assets/108227269/78344467-c974-4161-90cd-96b6f3174db2)
+![user1](https://github.com/iamawez/Realtimechatapp/assets/108227269/0c2b3ad7-6535-41c5-ac70-0c1eaf0b1be1)
 
-![user 2](https://github.com/iamawez/Realtimechatapp/assets/108227269/62c56143-c95b-4155-a7c2-95c1d41a73a0)
-
+![user2](https://github.com/iamawez/Realtimechatapp/assets/108227269/27890fe3-85e8-488a-a170-8bd406f42012)
 
 
